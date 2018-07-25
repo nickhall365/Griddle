@@ -757,7 +757,7 @@ storiesOf('Griddle main', module)
     const CustomTableComponent = OriginalComponent =>
       class CustomTableComponent extends React.Component<{}> {
         static contextTypes = {
-          components: React.PropTypes.object
+          components: PropTypes.object
         }
 
         render() {
